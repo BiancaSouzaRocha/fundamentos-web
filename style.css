@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin-left: 8%;
+  margin-right: 8%;
+  font-size: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    #627e56,
+    #eaeee5
+  );
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 42px;
+}
+.menu {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid white;
+  padding: 24px;
+}
+
+
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.titulo {
+  font-family: 'Abril Fatface', cursive;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.subtitulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.subtitulo {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.conteudo-principal-botao:hover {
+   background-color:  rgba(236, 214, 196, 0.53);
+}
+.conteudo-principal-botao {
+  background-color: #ecd6c4;
+  width: 160px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+}
+
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #013319;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid white;
+}
+
+.rodape-paragrafo {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  color: #013319;
+}
+
+
+.titulo-informacoes {
+  font-family: 'Abril Fatface', cursive;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+
+.secundario-informacoes{
+  margin-top: 48px;
+  padding: 24px;
+  border-top: 0.4px solid white;
+
+}
+.secundario-informacoes-titulo {
+  font-family: "Montserrat", sans-serif;
+  color: #013319;
+  padding: 24px;
+}
+
+.conteudo-video {
+  display: flex;
+  flex-direction:row;
+  align-items:baseline;
+  justify-content: space-around;
+}
+
+.titulo-contato {
+  text-align:center;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;;
+  font-size: 24px;
+  padding: 24px;
+}
+.contato {
+  text-align:justify;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 24px;
+
+}
+input, textarea{
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #2f2325;
+}
+
+.botao-contato {
+  background-color: #12581c;
+  width: 130px;
+  height: 40px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+}
+
+.botao-contato {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-size: 20px;
+}
